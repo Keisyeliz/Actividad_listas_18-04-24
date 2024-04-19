@@ -57,7 +57,7 @@ def fnt_selector(op):
     elif op == '3':
         sw = False
 
-while sw:
+while sw == True:
     fnt_limpiar()
-    opcion = input('\n\n -----MENÚ-----\n1. Regristar\n2.Consultar\n3.Salir\n.-> ')
+    opcion = input('\n\n -----MENÚ-----\n1. Regristar\n2.Consultar\n3.Salir\n-> ')
     fnt_selector(opcion)
